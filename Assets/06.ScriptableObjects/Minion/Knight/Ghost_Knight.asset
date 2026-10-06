@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06b4c90f0c766ad43b31782d207c9c7b, type: 3}
+  m_Name: Ghost_Knight
+  m_EditorClassIdentifier: 
+  MinionIndex: 1011
+  MinionSprite: {fileID: 2027008941, guid: 08d3ce97478d06b46a479e5bbedb4adf, type: 3}
+  MinionAnim: {fileID: 7400000, guid: 8139c2f3c137d2f4c87284e6407a2bcd, type: 2}
+  CharacterName: Ghost Knight
+  MaxAC: 10
+  AttackRange: 7
+  AttackPower: 15
+  AttackCooldown: 1.2
+  Cost: 180
+  Skill: {fileID: 11400000, guid: 6b7942f9b706b56479e4c74105fbda8a, type: 2}
+  Upgrades:
+  - UpgradeData: {fileID: 11400000, guid: 3008c47df2171be478c996d07575233e, type: 2}
+    MaxLevel: 10
+    Increase: 5
+    Cost: 30
+  - UpgradeData: {fileID: 11400000, guid: 6b8de3572d60cf341931bd3e5390088e, type: 2}
+    MaxLevel: 5
+    Increase: 1
+    Cost: 10
+  - UpgradeData: {fileID: 11400000, guid: 8c6e00234753ba543bef13d9807bb9bd, type: 2}
+    MaxLevel: 5
+    Increase: 1
+    Cost: 45
+  DeliveryType: 0
+  SearchScope: 0
+  MaxTargets: 0
+  AtkSprite: {fileID: 0}
+  AtkAnimClip: {fileID: 7400000, guid: 29bf7a934f48d9043993b7543b153c5c, type: 2}
+  AtkSFX: {fileID: 8300000, guid: 3885b4e317be7144cbcba5407314e2f5, type: 3}
+  ProjectileType: 0
+  ProjectileHitType: 0
+  ProjectileSpeed: 0
+  ProjectileDuration: 0
+  MinionType: 1

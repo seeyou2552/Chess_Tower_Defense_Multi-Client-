@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967f4c2f66d6ea441a8195a7548a2595, type: 3}
+  m_Name: YellowMage_Bishop_ChangeAtk
+  m_EditorClassIdentifier: 
+  ID: 6003
+  DeliveryType: 0
+  SearchScope: 2
+  AtkSprite: {fileID: 0}
+  AtkAnimClip: {fileID: 7400000, guid: 14ddc402bfeba9548a99909d052e9e05, type: 2}
+  AtkSFX: {fileID: 8300000, guid: 82f549190d503204486ec71b8c02d74c, type: 3}
+  ProjectileType: 0
+  ProjectileHitType: 0
+  ProjectileSpeed: 0
+  ProjectileDuration: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dea8620500268094e9727d0613705be1, type: 3}
+  m_Name: Enemy_Knight
+  m_EditorClassIdentifier: 
+  MaxHP: 350
+  AttackDamage: 10
+  MoveSpeed: 6
+  Reward: 50
+  Id: 8004
+  Name: Knight
+  Sprite: {fileID: 1679629054, guid: 6b6d9ba86c5f34f45ad9e63db6553e27, type: 3}

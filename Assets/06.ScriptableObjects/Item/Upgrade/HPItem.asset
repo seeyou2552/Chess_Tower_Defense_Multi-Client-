@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ab637b1b5363143911822eb4e9f3b0, type: 3}
+  m_Name: HPItem
+  m_EditorClassIdentifier: 
+  ItemName: HP Upgrade
+  ItemIndex: 26
+  Description: "\uD50C\uB808\uC774\uC5B4\uC758 \uC2A4\uD14C\uC774\uC9C0 \uC2DC\uC791
+    HP\uAC00 10 \uCD94\uAC00\uB429\uB2C8\uB2E4."
+  Icon: {fileID: 126015274, guid: e060c3d621d19284a84773f8ec1c0faa, type: 3}
+  Price: 500
+  ItemType: 1
+  MaxPurchaseCount: 10
+  DateReset: 0
+  HpIncreaseAmount: 10

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33132d355be5aa439bce103b7dea753, type: 3}
+  m_Name: Ghost_Knight_Item
+  m_EditorClassIdentifier: 
+  ItemName: Ghost Knight
+  ItemIndex: 11
+  Description: "Ghost Knight \uAD6C\uB9E4"
+  Icon: {fileID: 2027008941, guid: 08d3ce97478d06b46a479e5bbedb4adf, type: 3}
+  Price: 180
+  ItemType: 0
+  MaxPurchaseCount: 1
+  DateReset: 0
+  MinionData: {fileID: 11400000, guid: 7ef71b05b1dfad544bbf3999f2c137eb, type: 2}

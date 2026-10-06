@@ -1,0 +1,36 @@
+﻿ID,SkillName,Description,SkillSprite,SkillAnimClip,SkillSFX,SkillType,SearchScope,MaxTargets,ProjectileType,ProjectileHitType,ProjectileSpeed,ProjectileDuration,BuffList,AfterAnimClip,AfterSFX,SkillDamage,SkillScale,HitEvents,KillEvents
+5001,"회전 베기","사거리안에 있는 모든 적에게 {0} + {1} 데미지를 가합니다.","","Assets/03.Assets/Skill/Anim/SlashSkill_Anim.anim","Assets/04.Audios/Skill/SFX_Vefects_Stylized_Slash_Fire.wav",AOE,Area,0,Chase,Impact,0,0,"","","",50,1,"",""
+5002,"다중 사격","최대 {2}명의 적에게 {0} + {1}의 데미지를 가합니다.","Assets/03.Assets/Skill/weapon_arrow.png","","Assets/04.Audios/Skill/SFX_Vefects_Anime_Stylized_Arrow_Shot_Cast.wav",Projectile,MultiTarget,3,Chase,Impact,15,0,"","","",50,1,"",""
+5003,"약탈","단일 적에게 {0} + {1}의 데미지를 가합니다.
+해당 스킬로 적 처치시 {5}골드를 얻습니다.","","Assets/03.Assets/Skill/Anim/Looting.anim","Assets/04.Audios/Skill/SFX_Vefects_Flipbook_Impact_Blood_01.wav",Impact,MultiTarget,1,Chase,Impact,0,0,"","","",144,1,"","3001;0;10"
+5004,"방패 던지기","방패를 던져 최대 {2}명의 적에게 {0} + {1}의 데미지를 준 후 {4}초동안 기절시킵니다.","Assets/03.Assets/Skill/shield.png","","",Projectile,MultiTarget,5,Chase,Impact,10,0,"","Assets/03.Assets/Skill/Anim/atk.anim","Assets/04.Audios/Skill/SFX_Vefects_Flipbook_Shrapnel_03.wav",45,1,"2005;3;0",""
+5005,"연사","2초동안 공격속도가 50% 빨라집니다.","","","",Buff,Self,1,Chase,Impact,0,0,"4001;50;2;0","","",0,1,"",""
+5006,"목표 포착","3초 동안 공격 속도가 20% 빨라지며 
+기본 공격이 최대 5명 까지 공격할 수 있게됩니다.","","","",Buff,Self,0,Chase,Impact,0,0,"4002;5;3;6001|4001;20;3;0","","",0,1,"",""
+5007,"뒷발 차기","말 발굽으로 적을 차 {2}명의 적에게 {0} + {1}의 데미지를 준 후 {4}초동안 기절시킵니다.","","Assets/03.Assets/Skill/Anim/atk.anim","Assets/04.Audios/Skill/SFX_Vefects_Flipbook_Shrapnel_03.wav",Impact,MultiTarget,2,Chase,Impact,0,0,"","","",88,1,"2005;2;0",""
+5008,"사격 강화","기본 공격이 5초동안 5명의 적을 조준합니다.
+또한 화살이 적을 관통합니다.","","","",Buff,Self,0,Chase,Impact,0,0,"4002;5;3;6002","","",0,1,"",""
+5009,"성장형 기사","{2}명의 적에게 {0} + {1}의 데미지를 준 후 {4}초동안 {3}의 출혈 데미지를 입힙니다. 스킬로 적 처치시 {5}의 공격력을 영구히 얻습니다.","","Assets/03.Assets/Skill/Anim/SlashSkill_Anim.anim","Assets/04.Audios/Skill/SFX_Vefects_Stylized_Slash_Fire.wav",Impact,MultiTarget,1,Chase,Impact,0,0,"","","",0,1,"2001;5;5","3002;0;1"
+5010,"광기","5초동안 공격속도가 25배 빨라집니다.","","","",Buff,Self,0,Chase,Impact,0,0,"4001;2400;5;0","","",0,1,"",""
+5011,"원령 사출","{2}명에게 닿거나 사망할때까지 추격하는 원령을 사출합니다. 닿는 모든 적은 {0} + {1}의 데미지와 {4}초 동안 {3}의 데미지를 입는 저주를 받습니다. ","","Assets/03.Assets/Skill/Anim/DarkBall_Anim.anim","Assets/04.Audios/Skill/SFX_Vefects_Dark_Portal_Fade_Out_01.wav",Projectile,MultiTarget,5,Chase,Pierce,3,20,"","","",50,2,"2001;3;30",""
+5012,"폭발 탄환","적중한 적에게 {0} + {1}의 데미지를 주고,
+주변의 적에게 {3}의 데미지를 가합니다.","Assets/03.Assets/Skill/Bullet.png","","",Projectile,SingleTarget,0,Chase,Impact,25,0,"","","",50,2,"2003;1;100",""
+5013,"상처 내기","적에게 관통하는 검기를 발사 해 적중시 {0} + {1}의 데미지와 {4}초 동안 {3}의 데미지를 주는 출혈을 적용합니다.","Assets/03.Assets/Skill/SlashFX 5A v1_3.png","","Assets/04.Audios/Skill/SFX_Vefects_Anime_Stylized_Basic_Attack.wav",Projectile,SingleTarget,0,Chase,Impact,25,0.5,"","","",30,1,"2001;3;20",""
+5014,"삼키는 불","5초 동안 적 방향으로 느리게 쫓아가는 불덩어리를 {2}개 소환합니다.
+닿는 모든 적은 {0} + {1}의 데미지를 받습니다.","","Assets/03.Assets/Skill/Anim/FireBall_Anim.anim","Assets/04.Audios/Skill/SFX_Vefects_Anime_Stylized_FireBall_Hit.wav",Projectile,MultiTarget,1,Straight,Pierce,3,5,"","","",50,3,"",""
+5015,"빙결 창","{2} 명의 적에게 적중 시 {0} + {1}의 데미지를 주고 {3}% 느려지게하는
+관통하는 빙결 창을 발사합니다.","","Assets/03.Assets/Skill/Anim/IceBall_Anim.anim","Assets/04.Audios/Skill/SFX_Vefects_Stylized_Magic_Attack_Ice_Cast.wav",Projectile,MultiTarget,1,Straight,Pierce,20,3,"","","",25,3,"2004;5;30",""
+5016,"천둥 ","2 초동안 기본 공격이 강화되어
+사거리 내 모든 적에게 적중합니다.","","","",Buff,Self,0,Chase,Impact,0,0,"4002;50;2;6003","","",0,1,"",""
+5017,"광휘","사거리 내 모든 적에게 {0} + {1}의 데미지를 주고 {4}초 동안 기절시킵니다.","","Assets/03.Assets/StateEffect/EffectMaterials/Sprites/Circle_Anim.anim","Assets/04.Audios/Skill/SFX_Vefects_Stylized_Magic_Attack_Nature_Cast.wav",Impact,Area,0,Chase,Impact,0,0,"","","",55,1,"2005;1;0",""
+5018,"급소 명중","{2} 명의 적에게 {0} + {1}의 데미지를 주는 탄환을 발사합니다.
+적의 체력이 {3}% 이하라면 처형됩니다.","Assets/03.Assets/Skill/Bullet.png","","Assets/04.Audios/Skill/SFX_Vefects_Shots_Weapon_Hand_Gun.wav",Projectile,MultiTarget,1,Chase,Impact,30,1,"","","",150,1,"2002;0;5",""
+5019,"일제 사격","사거리 내 모든 적에게 관통하는 화살을 발사합니다.
+적중하는 적은 {0} + {1}의 데미지를 받습니다.","Assets/03.Assets/Skill/weapon_arrow.png","","Assets/04.Audios/Skill/SFX_Vefects_Anime_Stylized_Arrow_Shot_Cast.wav",Projectile,Area,0,Straight,Pierce,20,0.8,"","","",20,1,"",""
+5020,"전력 방출","주변 적에게 {0} + {1}의 데미지를 주고 {4}초동안 {3}의 감전 데미지를 주는  방전을 일으킵니다.
+","","Assets/03.Assets/Skill/Anim/ElectricAOE_Anim.anim","Assets/04.Audios/Skill/SFX_Vefects_Stylized_Magic_Attack_Electric_Cast.wav",AOE,SingleTarget,0,Chase,Impact,0,0,"","","",55,1,"2001;5;25",""
+5021,"교화의 빛","{3}명의 적에게 {0} + {1}의 데미지를 입히고 주변에 {3}의 데미지를 입히는 빛을 발사합니다.","","Assets/03.Assets/Skill/Anim/PrismBall_Anim.anim","Assets/04.Audios/Skill/SFX_Vefects_Stylized_Slash_Nature.wav",Projectile,MultiTarget,5,Chase,Impact,20,0,"","","",80,2,"2003;2;150",""
+5022,"지옥의 선물","한명의 적에게 {0} + {1} 의 데미지를 준 후 {4}초동안 기절시키는 투사체를 발사합니다. 적중 시 주변 적에게 100의 피해를 추가로 입힙니다.","","Assets/03.Assets/Skill/Anim/DarkBall_Anim.anim","Assets/04.Audios/Skill/SFX_Vefects_Dark_Portal_Fade_Out_01.wav",Projectile,SingleTarget,0,Chase,Impact,25,0,"","","",166,1,"2005;6;0|2003;5;100",""
+5023,"바다의 분노","사거리 내 모든 적에게 파도를 일으켜 {0} + {1}의 데미지를 주고 {4}초 동안 기절시킵니다.","","Assets/03.Assets/Skill/Anim/WaterBurst_Anim.anim","Assets/04.Audios/Skill/SFX_Vefects_Stylized_Magic_Attack_Water_Hit.wav",Impact,Area,0,Chase,Impact,0,0,"","","",50,5,"2005;2;0",""
+5024,"난공불락의 성","사거리 내에 있는 모든 아군의 공격속도를  5초간 20% 상승시킵니다.","","","",Buff,AreaMinion,0,Chase,Impact,0,0,"4001;20;5;0","","",0,1,"",""
+5025,"여왕의 가호","범위 내 모든 아군이 공격력 및 공격속도가 3초동안 25% 상승합니다.","","","",Buff,AreaMinion,0,Chase,Impact,0,0,"4001;25;3;0|4003;25;3;0","","",0,1,"",""

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06b4c90f0c766ad43b31782d207c9c7b, type: 3}
+  m_Name: Soldier_Pawn
+  m_EditorClassIdentifier: 
+  MinionIndex: 1005
+  MinionSprite: {fileID: -1828070212, guid: beb3c34c9172b4d43bdfd2ac5e541b39, type: 3}
+  MinionAnim: {fileID: 7400000, guid: cb5f5e2439ea5cc44abd6218ca0bafa7, type: 2}
+  CharacterName: Soldier Pawn
+  MaxAC: 30
+  AttackRange: 8
+  AttackPower: 5
+  AttackCooldown: 0.7
+  Cost: 200
+  Skill: {fileID: 11400000, guid: f1c644d32e8289a45adb62a966263be5, type: 2}
+  Upgrades:
+  - UpgradeData: {fileID: 11400000, guid: 3008c47df2171be478c996d07575233e, type: 2}
+    MaxLevel: 25
+    Increase: 2
+    Cost: 25
+  - UpgradeData: {fileID: 11400000, guid: b772d536d27ff8148b2e0abe3e7421a0, type: 2}
+    MaxLevel: 5
+    Increase: 0.1
+    Cost: 50
+  - UpgradeData: {fileID: 11400000, guid: 8c6e00234753ba543bef13d9807bb9bd, type: 2}
+    MaxLevel: 5
+    Increase: 1
+    Cost: 25
+  DeliveryType: 1
+  SearchScope: 0
+  MaxTargets: 0
+  AtkSprite: {fileID: -432825102, guid: cd7e36c4438bbee4f83cf9be92edf202, type: 3}
+  AtkAnimClip: {fileID: 0}
+  AtkSFX: {fileID: 8300000, guid: cc3ba3a432db4e649ac0674ee5ca8cdb, type: 3}
+  ProjectileType: 0
+  ProjectileHitType: 0
+  ProjectileSpeed: 25
+  ProjectileDuration: 0
+  MinionType: 0

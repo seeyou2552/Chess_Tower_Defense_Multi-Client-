@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33132d355be5aa439bce103b7dea753, type: 3}
+  m_Name: Soldier_Pawn_Item
+  m_EditorClassIdentifier: 
+  ItemName: Soldier Pawn
+  ItemIndex: 5
+  Description: "Soldier Pawn \uAD6C\uB9E4"
+  Icon: {fileID: -1828070212, guid: beb3c34c9172b4d43bdfd2ac5e541b39, type: 3}
+  Price: 200
+  ItemType: 0
+  MaxPurchaseCount: 1
+  DateReset: 0
+  MinionData: {fileID: 11400000, guid: 780cbc49e57c2294dae804196f96ed84, type: 2}

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06b4c90f0c766ad43b31782d207c9c7b, type: 3}
+  m_Name: Prism_Bishop
+  m_EditorClassIdentifier: 
+  MinionIndex: 1017
+  MinionSprite: {fileID: -1441407553, guid: 51c132d4f59589343a67f3bed3ea8887, type: 3}
+  MinionAnim: {fileID: 7400000, guid: 2e34f88001dd6f1499db474afdd05c60, type: 2}
+  CharacterName: Prism Bishop
+  MaxAC: 20
+  AttackRange: 4
+  AttackPower: 20
+  AttackCooldown: 1.5
+  Cost: 180
+  Skill: {fileID: 11400000, guid: f1bba89a4ace71847899af37789c5df1, type: 2}
+  Upgrades:
+  - UpgradeData: {fileID: 11400000, guid: b772d536d27ff8148b2e0abe3e7421a0, type: 2}
+    MaxLevel: 10
+    Increase: 0.1
+    Cost: 40
+  - UpgradeData: {fileID: 11400000, guid: 6b8de3572d60cf341931bd3e5390088e, type: 2}
+    MaxLevel: 5
+    Increase: 1
+    Cost: 20
+  - UpgradeData: {fileID: 11400000, guid: 8c6e00234753ba543bef13d9807bb9bd, type: 2}
+    MaxLevel: 5
+    Increase: 1
+    Cost: 50
+  DeliveryType: 1
+  SearchScope: 0
+  MaxTargets: 0
+  AtkSprite: {fileID: 0}
+  AtkAnimClip: {fileID: 7400000, guid: e408fc9777873c84590658814b9fed48, type: 2}
+  AtkSFX: {fileID: 8300000, guid: a7af5ca7f40b75045a23ec7d7ea1f4fa, type: 3}
+  ProjectileType: 1
+  ProjectileHitType: 1
+  ProjectileSpeed: 10
+  ProjectileDuration: 1
+  MinionType: 2

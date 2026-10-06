@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06b4c90f0c766ad43b31782d207c9c7b, type: 3}
+  m_Name: Knight
+  m_EditorClassIdentifier: 
+  MinionIndex: 1007
+  MinionSprite: {fileID: -1901705585, guid: 28e550c344f5f044db7b03e7b778babe, type: 3}
+  MinionAnim: {fileID: 7400000, guid: 8e7c4a827f547534db2147928b43c05b, type: 2}
+  CharacterName: Knight
+  MaxAC: 5
+  AttackRange: 4
+  AttackPower: 12
+  AttackCooldown: 2.2
+  Cost: 130
+  Skill: {fileID: 11400000, guid: 9ee5b94d6b0d59546b4f1c01ee165218, type: 2}
+  Upgrades:
+  - UpgradeData: {fileID: 11400000, guid: 3008c47df2171be478c996d07575233e, type: 2}
+    MaxLevel: 10
+    Increase: 5
+    Cost: 30
+  - UpgradeData: {fileID: 11400000, guid: b772d536d27ff8148b2e0abe3e7421a0, type: 2}
+    MaxLevel: 12
+    Increase: 0.1
+    Cost: 40
+  - UpgradeData: {fileID: 11400000, guid: 8c6e00234753ba543bef13d9807bb9bd, type: 2}
+    MaxLevel: 3
+    Increase: 1
+    Cost: 50
+  DeliveryType: 0
+  SearchScope: 0
+  MaxTargets: 0
+  AtkSprite: {fileID: 0}
+  AtkAnimClip: {fileID: 7400000, guid: 08f6dd5b7de6fd2499076e95317ed714, type: 2}
+  AtkSFX: {fileID: 8300000, guid: 4cc2ac4ee3152114fb74c77fe10a6094, type: 3}
+  ProjectileType: 0
+  ProjectileHitType: 0
+  ProjectileSpeed: 0
+  ProjectileDuration: 0
+  MinionType: 1

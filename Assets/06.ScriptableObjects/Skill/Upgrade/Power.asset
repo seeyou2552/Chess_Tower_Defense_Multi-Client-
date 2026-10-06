@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e7f5f4685d679c41a1f5037986be720, type: 3}
+  m_Name: Power
+  m_EditorClassIdentifier: 
+  ID: 2001
+  UpgradeName: "Power \nUpgrade"
+  UpgradeIcon: {fileID: 56508101, guid: 2aaca285a81495e498bca40ea5c03703, type: 3}
+  UpgradeDescription: "\uD574\uB2F9 \uBBF8\uB2C8\uC5B8\uC758 \uACF5\uACA9\uB825\uC774
+    {0} \uC0C1\uC2B9 \uD569\uB2C8\uB2E4."

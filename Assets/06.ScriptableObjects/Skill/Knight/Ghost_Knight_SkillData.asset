@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06254b2dd578ce24cae90d9236ad6da0, type: 3}
+  m_Name: Ghost_Knight_SkillData
+  m_EditorClassIdentifier: 
+  ID: 5011
+  SkillSprite: {fileID: 0}
+  SkillAnimClip: {fileID: 7400000, guid: 78d9453dc9183d54987244160051d4b5, type: 2}
+  SkillSFX: {fileID: 8300000, guid: 3885b4e317be7144cbcba5407314e2f5, type: 3}
+  SkillName: "\uC6D0\uB839 \uC0AC\uCD9C"
+  Description: "{2}\uBA85\uC5D0\uAC8C \uB2FF\uAC70\uB098 \uC0AC\uB9DD\uD560\uB54C\uAE4C\uC9C0
+    \uCD94\uACA9\uD558\uB294 \uC6D0\uB839\uC744 \uC0AC\uCD9C\uD569\uB2C8\uB2E4. \uB2FF\uB294
+    \uBAA8\uB4E0 \uC801\uC740 {0} + {1}\uC758 \uB370\uBBF8\uC9C0\uC640 {4}\uCD08
+    \uB3D9\uC548 {3}\uC758 \uB370\uBBF8\uC9C0\uB97C \uC785\uB294 \uC800\uC8FC\uB97C
+    \uBC1B\uC2B5\uB2C8\uB2E4. "
+  SkillType: 1
+  SearchScope: 1
+  MaxTargets: 5
+  ProjectileType: 0
+  ProjectileHitType: 1
+  ProjectileSpeed: 3
+  ProjectileDuration: 20
+  BuffList: []
+  AfterAnimClip: {fileID: 0}
+  AfterSFX: {fileID: 0}
+  SkillDamage: 50
+  SkillScale: 2
+  HitEvents:
+  - HitEvent: {fileID: 11400000, guid: 076f587bf16a0814d830f214191b6354, type: 2}
+    Duration: 3
+    Value: 30
+    ParticleObj: {fileID: 0}
+    EffectSprite: {fileID: 0}
+    EffectAnim: {fileID: 0}
+    AudioClip: {fileID: 0}
+  KillEvents: []

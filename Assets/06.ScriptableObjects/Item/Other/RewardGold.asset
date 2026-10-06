@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6497e31322d7d18488e610a0e4bcfacf, type: 3}
+  m_Name: RewardGold
+  m_EditorClassIdentifier: 
+  ItemName: Gold Reward
+  ItemIndex: 28
+  Description: "\uAD11\uACE0 \uC2DC\uCCAD\uC2DC 100 \uACE8\uB4DC\uB97C \uB4DC\uB9BD\uB2C8\uB2E4!\n(\uAD6C\uB9E4
+    \uD69F\uC218\uB294 \uB9E4\uC77C \uCD08\uAE30\uD654 \uB429\uB2C8\uB2E4.)"
+  Icon: {fileID: -8550149856088595828, guid: 7f9865cf6ac20f7468e13d5a5daff8ef, type: 3}
+  Price: 0
+  ItemType: 2
+  MaxPurchaseCount: 3
+  DateReset: 1
+  RewardAmount: 100

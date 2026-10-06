@@ -1,0 +1,4 @@
+﻿ID,DeliveryType,SearchScope,AtkSprite,AtkAnimClip,AtkSFX,ProjectileType,ProjectileHitType,ProjectileSpeed,ProjectileDuration
+6002,Projectile,MultiTarget,,,,Straight,Pierce,20,3
+6001,Projectile,MultiTarget,,,,Chase,Impact,25,15
+6003,Instant,Area,,Assets/03.Assets/Skill/Anim/Thunder_Anim.anim,Assets/04.Audios/Skill/SFX_Vefects_Stylized_Magic_Attack_Electric_Cast.wav,Chase,Impact,0,0

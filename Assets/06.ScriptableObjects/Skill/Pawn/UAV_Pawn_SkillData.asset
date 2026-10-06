@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06254b2dd578ce24cae90d9236ad6da0, type: 3}
+  m_Name: UAV_Pawn_SkillData
+  m_EditorClassIdentifier: 
+  ID: 5006
+  SkillSprite: {fileID: 0}
+  SkillAnimClip: {fileID: 0}
+  SkillSFX: {fileID: 0}
+  SkillName: "\uBAA9\uD45C \uD3EC\uCC29"
+  Description: "3\uCD08 \uB3D9\uC548 \uACF5\uACA9 \uC18D\uB3C4\uAC00 20% \uBE68\uB77C\uC9C0\uBA70
+    \n\uAE30\uBCF8 \uACF5\uACA9\uC774 \uCD5C\uB300 5\uBA85 \uAE4C\uC9C0 \uACF5\uACA9\uD560
+    \uC218 \uC788\uAC8C\uB429\uB2C8\uB2E4."
+  SkillType: 3
+  SearchScope: 3
+  MaxTargets: 0
+  ProjectileType: 0
+  ProjectileHitType: 0
+  ProjectileSpeed: 0
+  ProjectileDuration: 0
+  BuffList:
+  - Data: {fileID: 11400000, guid: 8acaadfd5cb3877459cf2b42185b5192, type: 2}
+    Increase: 5
+    Duration: 3
+    DefaultAttackData: {fileID: 11400000, guid: c8e2dbf9c391eca4f9d952b49288bfb1, type: 2}
+  - Data: {fileID: 11400000, guid: 863784d7b00e2ea4d94b6660ae288cf4, type: 2}
+    Increase: 20
+    Duration: 3
+    DefaultAttackData: {fileID: 0}
+  AfterAnimClip: {fileID: 0}
+  AfterSFX: {fileID: 0}
+  SkillDamage: 0
+  SkillScale: 1
+  HitEvents: []
+  KillEvents: []

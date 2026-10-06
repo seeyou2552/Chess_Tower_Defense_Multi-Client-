@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dea8620500268094e9727d0613705be1, type: 3}
+  m_Name: Enemy_King
+  m_EditorClassIdentifier: 
+  MaxHP: 2000
+  AttackDamage: 80
+  MoveSpeed: 2
+  Reward: 2000
+  Id: 8010
+  Name: King
+  Sprite: {fileID: 1277406454, guid: 6b6d9ba86c5f34f45ad9e63db6553e27, type: 3}

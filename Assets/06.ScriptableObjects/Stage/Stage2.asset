@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 540082e8b049b3641ae2903400aff032, type: 3}
+  m_Name: Stage2
+  m_EditorClassIdentifier: 
+  Wave:
+  - EnemyList:
+    - EnemyData: {fileID: 11400000, guid: 132cec62d4d4d934290b06418c01572c, type: 2}
+      Count: 12
+      SpawnDelay: 2
+  - EnemyList:
+    - EnemyData: {fileID: 11400000, guid: 132cec62d4d4d934290b06418c01572c, type: 2}
+      Count: 20
+      SpawnDelay: 1
+  - EnemyList:
+    - EnemyData: {fileID: 11400000, guid: 132cec62d4d4d934290b06418c01572c, type: 2}
+      Count: 30
+      SpawnDelay: 1
+    - EnemyData: {fileID: 11400000, guid: 132cec62d4d4d934290b06418c01572c, type: 2}
+      Count: 30
+      SpawnDelay: 0.5
+  - EnemyList:
+    - EnemyData: {fileID: 11400000, guid: 132cec62d4d4d934290b06418c01572c, type: 2}
+      Count: 40
+      SpawnDelay: 0.5
+    - EnemyData: {fileID: 11400000, guid: 132cec62d4d4d934290b06418c01572c, type: 2}
+      Count: 40
+      SpawnDelay: 0.3
+  - EnemyList:
+    - EnemyData: {fileID: 11400000, guid: 132cec62d4d4d934290b06418c01572c, type: 2}
+      Count: 40
+      SpawnDelay: 0.3
+    - EnemyData: {fileID: 11400000, guid: 132cec62d4d4d934290b06418c01572c, type: 2}
+      Count: 60
+      SpawnDelay: 0.2
+  - EnemyList:
+    - EnemyData: {fileID: 11400000, guid: 132cec62d4d4d934290b06418c01572c, type: 2}
+      Count: 40
+      SpawnDelay: 0.2
+    - EnemyData: {fileID: 11400000, guid: 447eabba5294d2c4aa117e251c9502c2, type: 2}
+      Count: 10
+      SpawnDelay: 1.5
+  - EnemyList:
+    - EnemyData: {fileID: 11400000, guid: 132cec62d4d4d934290b06418c01572c, type: 2}
+      Count: 20
+      SpawnDelay: 0.2
+    - EnemyData: {fileID: 11400000, guid: 447eabba5294d2c4aa117e251c9502c2, type: 2}
+      Count: 25
+      SpawnDelay: 1.2
+    - EnemyData: {fileID: 11400000, guid: 447eabba5294d2c4aa117e251c9502c2, type: 2}
+      Count: 10
+      SpawnDelay: 1
+  - EnemyList:
+    - EnemyData: {fileID: 11400000, guid: 447eabba5294d2c4aa117e251c9502c2, type: 2}
+      Count: 25
+      SpawnDelay: 0.7
+    - EnemyData: {fileID: 11400000, guid: 447eabba5294d2c4aa117e251c9502c2, type: 2}
+      Count: 25
+      SpawnDelay: 0.5
+  - EnemyList:
+    - EnemyData: {fileID: 11400000, guid: 447eabba5294d2c4aa117e251c9502c2, type: 2}
+      Count: 30
+      SpawnDelay: 0.5
+    - EnemyData: {fileID: 11400000, guid: 447eabba5294d2c4aa117e251c9502c2, type: 2}
+      Count: 50
+      SpawnDelay: 0.3
+  - EnemyList:
+    - EnemyData: {fileID: 11400000, guid: 447eabba5294d2c4aa117e251c9502c2, type: 2}
+      Count: 50
+      SpawnDelay: 0.2
+    - EnemyData: {fileID: 11400000, guid: ffe1b0b972ed89e4aaf08dba700ce8d6, type: 2}
+      Count: 10
+      SpawnDelay: 1.5
+  - EnemyList:
+    - EnemyData: {fileID: 11400000, guid: ffe1b0b972ed89e4aaf08dba700ce8d6, type: 2}
+      Count: 10
+      SpawnDelay: 1
+    - EnemyData: {fileID: 11400000, guid: 447eabba5294d2c4aa117e251c9502c2, type: 2}
+      Count: 10
+      SpawnDelay: 0.2
+    - EnemyData: {fileID: 11400000, guid: ffe1b0b972ed89e4aaf08dba700ce8d6, type: 2}
+      Count: 10
+      SpawnDelay: 1
+    - EnemyData: {fileID: 11400000, guid: 447eabba5294d2c4aa117e251c9502c2, type: 2}
+      Count: 20
+      SpawnDelay: 0.2
+    - EnemyData: {fileID: 11400000, guid: ffe1b0b972ed89e4aaf08dba700ce8d6, type: 2}
+      Count: 20
+      SpawnDelay: 0.8
+  MapThumbnail: {fileID: 21300000, guid: 69f59f57e92edcd459e99b07add8c9f2, type: 3}
+  StageLevelIcon: {fileID: -1231603550, guid: 246256c090b0a1249b6ccbd493f4abb8, type: 3}
+  ClearGold: 110

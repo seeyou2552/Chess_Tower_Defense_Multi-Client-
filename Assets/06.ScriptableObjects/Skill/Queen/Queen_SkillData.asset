@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06254b2dd578ce24cae90d9236ad6da0, type: 3}
+  m_Name: Queen_SkillData
+  m_EditorClassIdentifier: 
+  ID: 5025
+  SkillSprite: {fileID: 0}
+  SkillAnimClip: {fileID: 0}
+  SkillSFX: {fileID: 0}
+  SkillName: "\uC5EC\uC655\uC758 \uAC00\uD638"
+  Description: "\uBC94\uC704 \uB0B4 \uBAA8\uB4E0 \uC544\uAD70\uC774 \uACF5\uACA9\uB825
+    \uBC0F \uACF5\uACA9\uC18D\uB3C4\uAC00 3\uCD08\uB3D9\uC548 25% \uC0C1\uC2B9\uD569\uB2C8\uB2E4."
+  SkillType: 3
+  SearchScope: 4
+  MaxTargets: 0
+  ProjectileType: 0
+  ProjectileHitType: 0
+  ProjectileSpeed: 0
+  ProjectileDuration: 0
+  BuffList:
+  - Data: {fileID: 11400000, guid: 863784d7b00e2ea4d94b6660ae288cf4, type: 2}
+    Increase: 25
+    Duration: 3
+    DefaultAttackData: {fileID: 0}
+  - Data: {fileID: 11400000, guid: be1e0e3c827e64f48997c75cea06da50, type: 2}
+    Increase: 25
+    Duration: 3
+    DefaultAttackData: {fileID: 0}
+  AfterAnimClip: {fileID: 0}
+  AfterSFX: {fileID: 0}
+  SkillDamage: 0
+  SkillScale: 1
+  HitEvents: []
+  KillEvents: []

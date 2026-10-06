@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06b4c90f0c766ad43b31782d207c9c7b, type: 3}
+  m_Name: YellowMage_Bishop
+  m_EditorClassIdentifier: 
+  MinionIndex: 1016
+  MinionSprite: {fileID: -1573891980, guid: 51c132d4f59589343a67f3bed3ea8887, type: 3}
+  MinionAnim: {fileID: 7400000, guid: bd37b012701cad14aac7c19bc978be2d, type: 2}
+  CharacterName: YellowMage Bishop
+  MaxAC: 10
+  AttackRange: 4
+  AttackPower: 7
+  AttackCooldown: 1.5
+  Cost: 200
+  Skill: {fileID: 11400000, guid: 6586d20940263a24db43b6a0244be487, type: 2}
+  Upgrades:
+  - UpgradeData: {fileID: 11400000, guid: 3008c47df2171be478c996d07575233e, type: 2}
+    MaxLevel: 10
+    Increase: 5
+    Cost: 40
+  - UpgradeData: {fileID: 11400000, guid: b772d536d27ff8148b2e0abe3e7421a0, type: 2}
+    MaxLevel: 12
+    Increase: 0.1
+    Cost: 50
+  - UpgradeData: {fileID: 11400000, guid: 6b8de3572d60cf341931bd3e5390088e, type: 2}
+    MaxLevel: 5
+    Increase: 1
+    Cost: 10
+  DeliveryType: 1
+  SearchScope: 0
+  MaxTargets: 0
+  AtkSprite: {fileID: 0}
+  AtkAnimClip: {fileID: 7400000, guid: a44d62cae5289de47915b9418488ef70, type: 2}
+  AtkSFX: {fileID: 8300000, guid: d68a2cc8ebb0a3a41a2f68188f2cb67c, type: 3}
+  ProjectileType: 1
+  ProjectileHitType: 1
+  ProjectileSpeed: 15
+  ProjectileDuration: 0.5
+  MinionType: 2

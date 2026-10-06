@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06254b2dd578ce24cae90d9236ad6da0, type: 3}
+  m_Name: Church_Rook_SkillData
+  m_EditorClassIdentifier: 
+  ID: 5021
+  SkillSprite: {fileID: 0}
+  SkillAnimClip: {fileID: 7400000, guid: e408fc9777873c84590658814b9fed48, type: 2}
+  SkillSFX: {fileID: 8300000, guid: cab4a78e4be14c84baf0bbc47686c3e0, type: 3}
+  SkillName: "\uAD50\uD654\uC758 \uBE5B"
+  Description: "{3}\uBA85\uC758 \uC801\uC5D0\uAC8C {0} + {1}\uC758 \uB370\uBBF8\uC9C0\uB97C
+    \uC785\uD788\uACE0 \uC8FC\uBCC0\uC5D0 {3}\uC758 \uB370\uBBF8\uC9C0\uB97C \uC785\uD788\uB294
+    \uBE5B\uC744 \uBC1C\uC0AC\uD569\uB2C8\uB2E4."
+  SkillType: 1
+  SearchScope: 1
+  MaxTargets: 5
+  ProjectileType: 0
+  ProjectileHitType: 0
+  ProjectileSpeed: 20
+  ProjectileDuration: 0
+  BuffList: []
+  AfterAnimClip: {fileID: 0}
+  AfterSFX: {fileID: 0}
+  SkillDamage: 80
+  SkillScale: 2
+  HitEvents:
+  - HitEvent: {fileID: 11400000, guid: 54b8bafb664a52746a222459f064d46f, type: 2}
+    Duration: 2
+    Value: 150
+    ParticleObj: {fileID: 0}
+    EffectSprite: {fileID: 0}
+    EffectAnim: {fileID: 0}
+    AudioClip: {fileID: 0}
+  KillEvents: []

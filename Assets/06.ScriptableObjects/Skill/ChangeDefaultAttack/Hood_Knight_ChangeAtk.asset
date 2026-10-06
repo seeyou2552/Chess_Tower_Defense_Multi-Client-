@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 967f4c2f66d6ea441a8195a7548a2595, type: 3}
+  m_Name: Hood_Knight_ChangeAtk
+  m_EditorClassIdentifier: 
+  ID: 6002
+  DeliveryType: 1
+  SearchScope: 1
+  AtkSprite: {fileID: 0}
+  AtkAnimClip: {fileID: 0}
+  AtkSFX: {fileID: 0}
+  ProjectileType: 1
+  ProjectileHitType: 1
+  ProjectileSpeed: 20
+  ProjectileDuration: 3

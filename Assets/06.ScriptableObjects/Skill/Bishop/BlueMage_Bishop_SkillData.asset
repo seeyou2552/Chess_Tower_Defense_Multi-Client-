@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06254b2dd578ce24cae90d9236ad6da0, type: 3}
+  m_Name: BlueMage_Bishop_SkillData
+  m_EditorClassIdentifier: 
+  ID: 5015
+  SkillSprite: {fileID: 0}
+  SkillAnimClip: {fileID: 7400000, guid: ec60663cd11d92943889ad5279f5dff5, type: 2}
+  SkillSFX: {fileID: 8300000, guid: a57b2de73431fc34aa9f0d2b5ed2f1a5, type: 3}
+  SkillName: "\uBE59\uACB0 \uCC3D"
+  Description: "{2} \uBA85\uC758 \uC801\uC5D0\uAC8C \uC801\uC911 \uC2DC {0} + {1}\uC758
+    \uB370\uBBF8\uC9C0\uB97C \uC8FC\uACE0 {3}% \uB290\uB824\uC9C0\uAC8C\uD558\uB294\n\uAD00\uD1B5\uD558\uB294
+    \uBE59\uACB0 \uCC3D\uC744 \uBC1C\uC0AC\uD569\uB2C8\uB2E4."
+  SkillType: 1
+  SearchScope: 1
+  MaxTargets: 1
+  ProjectileType: 1
+  ProjectileHitType: 1
+  ProjectileSpeed: 20
+  ProjectileDuration: 3
+  BuffList: []
+  AfterAnimClip: {fileID: 0}
+  AfterSFX: {fileID: 0}
+  SkillDamage: 25
+  SkillScale: 3
+  HitEvents:
+  - HitEvent: {fileID: 11400000, guid: f6fef5beaceb2b54687157ceeb347774, type: 2}
+    Duration: 5
+    Value: 30
+    ParticleObj: {fileID: 0}
+    EffectSprite: {fileID: 0}
+    EffectAnim: {fileID: 0}
+    AudioClip: {fileID: 0}
+  KillEvents: []

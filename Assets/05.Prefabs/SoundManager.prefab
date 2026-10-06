@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4530306773190027667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6090203903103972953}
+  - component: {fileID: 8589074175988694832}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6090203903103972953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4530306773190027667}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 25, y: 25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8589074175988694832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4530306773190027667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f38f20f723172d49bf25236ce39c6a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BgmSource: {fileID: 0}
+  BgmList:
+  - Key: LobbyBGM
+    Clip: {fileID: 8300000, guid: 7de63895f2e18f444a0e3e8fdbe490d4, type: 3}
+  - Key: StageBGM
+    Clip: {fileID: 8300000, guid: e03535dd09eae004ba8e6a99e906b059, type: 3}
+  SfxSource: {fileID: 0}
+  SfxList:
+  - Key: SelectBtnClick
+    Clip: {fileID: 8300000, guid: 48f388cfe8beb9041b11f54bff5da1e4, type: 3}
+  - Key: ShowSelectPanel
+    Clip: {fileID: 8300000, guid: 3ba9395817f9fea4e9348c2ea6ab8781, type: 3}
+  - Key: DropMinion
+    Clip: {fileID: 8300000, guid: 5f4e7bfea5ae696448fb23c5b8a6d8de, type: 3}
+  - Key: MinionDragStart
+    Clip: {fileID: 8300000, guid: e579396c6ce1a964f8bcf9d7179eb624, type: 3}
+  - Key: ShowSettingUI
+    Clip: {fileID: 8300000, guid: bd468d189bd2ba4439976392ad07bf8f, type: 3}
+  - Key: BackBtnClick
+    Clip: {fileID: 8300000, guid: 48f388cfe8beb9041b11f54bff5da1e4, type: 3}
+  - Key: ShowShopUI
+    Clip: {fileID: 8300000, guid: b5e13c50bd82f424e85cf198adac7ad3, type: 3}
+  - Key: SwapBtnClick
+    Clip: {fileID: 8300000, guid: ed424ca1bfa05844d8e76941b1cc4ce5, type: 3}
+  - Key: Drawer
+    Clip: {fileID: 8300000, guid: be9435bc83efd8f4e81221a92f2e5ac7, type: 3}
+  SfxPoolSize: 5

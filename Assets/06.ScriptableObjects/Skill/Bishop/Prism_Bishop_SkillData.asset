@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06254b2dd578ce24cae90d9236ad6da0, type: 3}
+  m_Name: Prism_Bishop_SkillData
+  m_EditorClassIdentifier: 
+  ID: 5017
+  SkillSprite: {fileID: 0}
+  SkillAnimClip: {fileID: 7400000, guid: 07a4fad4bacf8ae43b128bdd5b895d7b, type: 2}
+  SkillSFX: {fileID: 8300000, guid: a7af5ca7f40b75045a23ec7d7ea1f4fa, type: 3}
+  SkillName: "\uAD11\uD718"
+  Description: "\uC0AC\uAC70\uB9AC \uB0B4 \uBAA8\uB4E0 \uC801\uC5D0\uAC8C {0} + {1}\uC758
+    \uB370\uBBF8\uC9C0\uB97C \uC8FC\uACE0 {4}\uCD08 \uB3D9\uC548 \uAE30\uC808\uC2DC\uD0B5\uB2C8\uB2E4."
+  SkillType: 0
+  SearchScope: 2
+  MaxTargets: 0
+  ProjectileType: 0
+  ProjectileHitType: 0
+  ProjectileSpeed: 0
+  ProjectileDuration: 0
+  BuffList: []
+  AfterAnimClip: {fileID: 0}
+  AfterSFX: {fileID: 0}
+  SkillDamage: 55
+  SkillScale: 1
+  HitEvents:
+  - HitEvent: {fileID: 11400000, guid: c2cf5efeebf2d0e46abdbc4777667e58, type: 2}
+    Duration: 1
+    Value: 0
+    ParticleObj: {fileID: 0}
+    EffectSprite: {fileID: 0}
+    EffectAnim: {fileID: 0}
+    AudioClip: {fileID: 0}
+  KillEvents: []

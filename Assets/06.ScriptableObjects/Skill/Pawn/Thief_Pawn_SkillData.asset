@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06254b2dd578ce24cae90d9236ad6da0, type: 3}
+  m_Name: Thief_Pawn_SkillData
+  m_EditorClassIdentifier: 
+  ID: 5003
+  SkillSprite: {fileID: 0}
+  SkillAnimClip: {fileID: 7400000, guid: 7e3c2a8c426b6814dbc1c39558f64060, type: 2}
+  SkillSFX: {fileID: 8300000, guid: 6751fb3e1dbbffa4e87b5a7648342158, type: 3}
+  SkillName: "\uC57D\uD0C8"
+  Description: "\uB2E8\uC77C \uC801\uC5D0\uAC8C {0} + {1}\uC758 \uB370\uBBF8\uC9C0\uB97C
+    \uAC00\uD569\uB2C8\uB2E4.\n\uD574\uB2F9 \uC2A4\uD0AC\uB85C \uC801 \uCC98\uCE58\uC2DC
+    {5}\uACE8\uB4DC\uB97C \uC5BB\uC2B5\uB2C8\uB2E4."
+  SkillType: 0
+  SearchScope: 1
+  MaxTargets: 1
+  ProjectileType: 0
+  ProjectileHitType: 0
+  ProjectileSpeed: 0
+  ProjectileDuration: 0
+  BuffList: []
+  AfterAnimClip: {fileID: 0}
+  AfterSFX: {fileID: 0}
+  SkillDamage: 144
+  SkillScale: 1
+  HitEvents: []
+  KillEvents:
+  - KillEvent: {fileID: 11400000, guid: 2504a3dfe69e8e2409b5ecac6b122de5, type: 2}
+    Duration: 0
+    Value: 10
+    ParticleObj: {fileID: 0}
+    EffectSprite: {fileID: 0}
+    EffectAnim: {fileID: 0}
+    AudioClip: {fileID: 0}

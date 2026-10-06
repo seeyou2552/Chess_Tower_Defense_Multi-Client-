@@ -1,0 +1,7 @@
+﻿AssetName,ID,Type,UpgradeName,Description,IconPath,SpriteName
+AtkCooldown,2002,UpgradeAtkCooldown,Atk Cooldown \nUpgrade,해당 미니언의 공격속도가 {0}만큼 더 빨라집니다.,Assets/03.Assets/UI/UpgradeCard/CooldownPanel.png,CooldownPanel_0
+Max AC,2003,UpgradeMaxAC,Max AC \nUpgrade,해당 미니언의 최대 AC가  {0} 감소합니다.,Assets/03.Assets/UI/UpgradeCard/ACPanel.png,ACPanel_0
+Max Target,2005,UpgradeMaxTarget,Max Target \nUpgrade,해당 미니언의 스킬의 타겟 수가 {0}만큼 증가 합니다.,Assets/03.Assets/UI/UpgradeCard/UpgradePanel.png,UpgradePanel_0
+Power,2001,UpgradePower,Power \nUpgrade,해당 미니언의 공격력이 {0} 상승 합니다.,Assets/03.Assets/UI/UpgradeCard/AtkPanel.png,AtkPanel_0
+Range,2004,UpgradeRange,Range \nUpgrade,해당 미니언의 공격범위가 {0} 증가 합니다.로 바뀜,Assets/03.Assets/UI/UpgradeCard/RangePanel.png,RangePanel_0
+Range2,2005,UpgradeRange,Range \nUpgrade,해당 미니언의 공격범위가 {0} 증가 합니다.로 수정됨22,Assets/03.Assets/UI/UpgradeCard/AtkPanel.png,AtkPanel_0
